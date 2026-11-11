@@ -124,9 +124,6 @@ export function Projects() {
                 Painel de Precificação Automática v3.4 - [main.fxml]
               </span>
             </div>
-            <span className="text-[10px] text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20 font-mono">
-              SQL Server: CONECTADO
-            </span>
           </div>
 
           {/* FXML Action Bar with exact original colors */}
@@ -584,7 +581,7 @@ export function Projects() {
             <div className="bg-[#0b0e16] p-2 rounded border border-border/30">
               <span className="text-emerald-400 font-bold block">GET /api/produtos/buscar?isbn=9788576082675</span>
               <p className="text-gray-300 font-sans mt-1 text-[11px]">
-                {`{ "sku": 1042, "titulo": "Clean Code", "estoque": 48, "db_origem": "ERIS_PROD", "status": 200 }`}
+                {`{ "sku": 1042, "titulo": "Clean Code", "estoque": 48, "db_origem": "PROD", "status": 200 }`}
               </p>
             </div>
             <div className="grid grid-cols-2 gap-2 text-[9px]">
